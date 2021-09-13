@@ -85,6 +85,6 @@ const updateTotal = () => {
   const deliveryCharge = getInputValue("delivery-charge");
   const totalTax = getInputValue("total-tax");
   const grandTotal = basicPrice + deliveryCharge + totalTax;
-  document.getElementById("total").innerText = grandTotal;
+  document.getElementById("total").innerText = parseFloat(grandTotal).toFixed(2);
 };
 loadProducts();
