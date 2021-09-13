@@ -5,8 +5,9 @@ body {
 #greetings {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: rgb(197, 238, 150);
-  padding: 20px 0px;
+  padding: 25px 0px;
 }
 .search-field {
   border: none;
