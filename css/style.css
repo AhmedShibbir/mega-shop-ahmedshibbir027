@@ -2,6 +2,12 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+#greetings {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(197, 238, 150);
+  padding: 20px 0px;
+}
 .search-field {
   border: none;
   border-radius: 50px;
@@ -14,11 +20,13 @@ body {
 }
 .search-box {
   border: 1px solid rgb(3, 118, 211);
-  width: 281px;
+  width: 40%;
   border-radius: 5px;
-  margin: auto;
-  margin-top: 50px;
-  border-right: none;
+  margin: 50px auto;
+  /* search box's right side modified */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .search-button {
   padding: 10px 50px;
